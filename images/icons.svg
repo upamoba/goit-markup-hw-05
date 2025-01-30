@@ -46,5 +46,8 @@
     <symbol id="icon-send" viewBox="0 0 38 32">
       <path d="M38.4 0 0 18l12.272 3.788L31.2 7 16.803 23.186l.012.004-.014-.004V32l6.882-6.691L32.401 28l6-28z"/>
     </symbol>
+    <symbol id="icon-checkmark" viewBox="0 0 32 32">
+      <path d="m6 12-6 6 12 12 20-20-6-6-14 14z"/>
+    </symbol>
   </defs>
 </svg>

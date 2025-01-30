@@ -735,5 +735,70 @@
         </div>
       </div>
     </footer>
+
+    <button class="open-modal-btn">Open Modal</button>
+
+    <div class="backdrop">
+      <div class="modal">
+        <button class="close-modal-btn">&times;</button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <label class="modal-label">
+            Name
+            <div class="input-wrapper">
+              <svg class="icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+          </label>
+          <label class="modal-label">
+            Phone
+            <div class="input-wrapper">
+              <svg class="icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Enter your phone"
+                required
+              />
+            </div>
+          </label>
+
+          <label class="modal-label">
+            Email
+            <div class="input-wrapper">
+              <svg class="icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+          </label>
+
+          <label class="modal-label">
+            Comment
+            <textarea name="comment" placeholder="Text input"></textarea>
+          </label>
+          <label class="modal-checkbox">
+            <input type="checkbox" required />
+            I accept the terms and conditions of the
+            <a href="#">Privacy Policy</a>
+          </label>
+          <button type="submit" class="submit-btn">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

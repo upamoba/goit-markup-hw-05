@@ -789,7 +789,6 @@ a {
   margin-bottom: 24px;
 }
 .modal-checkbox {
-  display: flex;
   align-items: center;
   font-size: 12px;
   line-height: 1.17;
@@ -809,7 +808,6 @@ a {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
   margin-right: 8px;
-  width: 16px;
 }
 .visually-hidden:checked + .modal-checkbox .custom-checkbox {
   background-color: #404bbf;

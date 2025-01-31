@@ -739,6 +739,7 @@ a {
 }
 .input-wrapper {
   position: relative;
+  margin-bottom: 8px;
 }
 .modal-input {
   width: 100%;
@@ -786,6 +787,7 @@ a {
   border-color: #4d5ae5;
 }
 .checkbox-container {
+  margin-top: 16px;
   margin-bottom: 24px;
 }
 .modal-checkbox {
